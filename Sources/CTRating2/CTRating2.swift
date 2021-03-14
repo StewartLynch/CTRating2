@@ -23,9 +23,9 @@ import SwiftUI
 public struct CTRating2: View {
     var maxRating: Int
     @Binding var currentRating: Int
-    var width:Int = 20
-    var color: UIColor = .systemYellow
-    var ratingImage: RatingImage = .star
+    var width:Int
+    var color: UIColor
+    var ratingImage: RatingImage
     
     /// Only two required parameters are maxRating and the binding to currentRating.  All other parameters have default values
     /// - Parameters:
